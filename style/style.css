@@ -182,4 +182,7 @@ section{
   .card{
     width:100%;
   }
+  .details .img-details{
+    width: 80%;
+  }
 }
