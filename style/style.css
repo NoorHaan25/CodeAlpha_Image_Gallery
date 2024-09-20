@@ -138,6 +138,8 @@ section{
   height: 100%;
   z-index: 200;
   display: none;
+  align-items: center;
+  justify-content: center;
 }
 .details .details-content{
   display: flex;
@@ -147,11 +149,13 @@ section{
   width: 100%;
 }
 .details .img-details{
-  width: 50%;
+  /* width: 50%; */
   position: relative;
 }
 .details .img-details img{
-  width: 100%;
+  width: 500px;
+  height: 500px;
+  object-fit: cover;
   border-radius: 20px;
 }
 .details .img-details .close{
